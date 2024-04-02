@@ -29,8 +29,11 @@ export default class KWM_Router {
         this.changeView();
     }
 
-    static redirect(route = '') {
-        location.hash = route;
+    // forwards the user to the route / page of the application with the specified slug
+    // triggers the 'hashchange' event and therefore changes the view
+    // (like clicking on a link in the browser)
+    static redirect(slug = '') {
+        location.hash = slug;
     }
 
     changeView() {
@@ -57,7 +60,8 @@ export default class KWM_Router {
     // (Bonus) Get the search/get parameters of the current URL
     static getGetUrlSearchParams() {
         return new URLSearchParams(window.location.href
-                .split('?')[1] // get only the part after the ? (start of query params) in url
-            ?? '');
+                .split('?')[1] // extract the parameter string (the part after the '?')
+                ?? '' // as default return an empty string
+        );
     }
 }
