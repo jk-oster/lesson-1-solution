@@ -7,7 +7,7 @@
  * Every component has a template function that returns a string of HTML, that describes how the component looks like.
  * The template function is called every time the component is rendered.
  *
- * @author Jakob Osterberger - 2024
+ * @author Jakob Osterberger - 2025
  */
 export default class KWM_Component extends HTMLElement {
     // Important: WebComponent / HTMLElement constructor does not allow any arguments!

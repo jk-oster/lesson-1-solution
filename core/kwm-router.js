@@ -13,7 +13,7 @@
  * @param {string} options.slugHome - Default slug for first page load
  * @param {string} options.slugNotFound - Default slug when unknown slug is put into URL
  *
- * @author Jakob Osterberger - 2024
+ * @author Jakob Osterberger - 2025
  */
 export default class KWM_Router {
     constructor({container, routes, slugHome, slugNotFound}) {

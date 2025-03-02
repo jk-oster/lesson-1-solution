@@ -12,7 +12,7 @@
  * @param {KWM_Component} options.component - Give me the component that is rendered when the route is active.
  * @param {function} options.canRender - (Bonus) A function that is called before the component is rendered. If it returns false, the component will not be rendered.
  *
- * @author Jakob Osterberger - 2024
+ * @author Jakob Osterberger - 2025
  */
 export default class KWM_Route {
     constructor({slug, name, component, canRender}) {
