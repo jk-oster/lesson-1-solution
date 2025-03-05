@@ -45,7 +45,7 @@ export default class HomeComponent extends KWM_Component {
                Whohoo! Component Rendering works! And our navigation with Routes and our Router works too!
             </p>
             <p><a href="#/contact">Contact us!</a></p>
-            <p><a href="#/i-dont-exist">I lead to a non existent page</a></p>
+            <p><a href="#/i-dont-exist">I lead to a non-existent page</a></p>
             
             <!-- Child Components -->
             <hero-teaser-component></hero-teaser-component>
